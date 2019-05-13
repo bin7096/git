@@ -85,3 +85,10 @@ git config --global merge.tool vimdiff
 # 全局示例
 git config --global color.ui true
 ```
+# 指定全局.gitignore文件
+> <.gitignorefile>.gitignore文件路径
+```sh
+git config --global core.excludesfile <.gitignorefile>
+# 例：linux下指定home目录下的.gitignore文件为全局声明文件
+git config --global core.excludesfile ~/.gitignore 
+```
