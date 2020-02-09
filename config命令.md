@@ -92,3 +92,5 @@ git config --global core.excludesfile <.gitignorefile>
 # 例：linux下指定home目录下的.gitignore文件为全局声明文件
 git config --global core.excludesfile ~/.gitignore 
 ```
+
+
